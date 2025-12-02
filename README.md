@@ -23,28 +23,28 @@ youtube-engagement-analysis/
 ## ⚙️ Metodologia
 Il progetto segue un flusso di lavoro strutturato in 4 fasi principali:
 
-1. Data Cleaning & Preprocessing
+- Data Cleaning & Preprocessing
 Gestione delle date (published_at) per calcolare l'età del video.
 
 Encoding delle variabili categoriche (es. caption da Booleano a Binario, definition da testo a numerico).
 
 Variabile Target: Definizione di "Video di Successo" basata sul superamento della mediana dell'engagement_rate.
 
-2. Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
 Analisi della correlazione tra metriche (es. Like vs Views vs Commenti).
 
 Studio della distribuzione dei video per Categoria.
 
 Visualizzazione avanzata con Seaborn (Heatmaps) e Matplotlib.
 
-3. Content Segmentation (Clustering)
+- Content Segmentation (Clustering)
 Utilizzo dell'algoritmo K-Means per raggruppare i video in tipologie omogenee.
 
 Determinazione del numero ottimale di cluster tramite Elbow Method (risultato ottimale: k=3).
 
 Profilazione dei cluster basata su duration_seconds (lunghezza) e view_count (popolarità), identificando gruppi come "Video Virali", "Standard" e "Nicchia Long-form".
 
-4. Modellazione Predittiva (Classification)
+- Modellazione Predittiva (Classification)
 Addestramento di un modello di Logistic Regression.
 
 Obiettivo: Predire se un video sarà "High Engagement" (1) o "Low Engagement" (0).
@@ -101,11 +101,12 @@ Apri il file notebooks/youtube_analysis.ipynb ed esegui le celle sequenzialmente
 ```
 
 ## 🛠️ Tecnologie Utilizzate
-Python: Linguaggio principale.
+- Python: Linguaggio principale.
 
-Pandas & NumPy: Manipolazione dati e calcolo vettoriale.
+- Pandas & NumPy: Manipolazione dati e calcolo vettoriale.
 
-Matplotlib & Seaborn: Visualizzazione dati e grafici statistici.
+- Matplotlib & Seaborn: Visualizzazione dati e grafici statistici.
 
-Scikit-Learn: Machine Learning (K-Means, Logistic Regression, Preprocessing, Metrics).
+- Scikit-Learn: Machine Learning (K-Means, Logistic Regression, Preprocessing, Metrics).
+
 
