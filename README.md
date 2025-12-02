@@ -69,30 +69,36 @@ Per eseguire il progetto in locale:
 
 Clona la repository (o scarica la cartella):
 
-Bash
-
+```text
 git clone <repository-url>
 cd youtube-engagement-analysis
+```
 Crea un ambiente virtuale (opzionale ma consigliato):
 
-Bash
-
+```text
 python -m venv venv
+```
 # Windows
+```text
 venv\Scripts\activate
+```
+
 # Mac/Linux
+```text
 source venv/bin/activate
+```
 Installa le dipendenze:
 
-Bash
-
+```text
 pip install -r requirements.txt
+```
+
 Avvia Jupyter Notebook:
 
-Bash
-
+```text
 jupyter notebook
 Apri il file notebooks/youtube_analysis.ipynb ed esegui le celle sequenzialmente.
+```
 
 ## 🛠️ Tecnologie Utilizzate
 Python: Linguaggio principale.
@@ -102,3 +108,4 @@ Pandas & NumPy: Manipolazione dati e calcolo vettoriale.
 Matplotlib & Seaborn: Visualizzazione dati e grafici statistici.
 
 Scikit-Learn: Machine Learning (K-Means, Logistic Regression, Preprocessing, Metrics).
+
